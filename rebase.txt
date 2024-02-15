@@ -1,0 +1,11 @@
+branch trivial : bcp de branch banal, ou simple
+à quoi sert rebase ?
+*/ conserver un historique propre ;
+*/ corriger des erreurs de fusion ;
+*/ faciliter le travail collaboratif ;
+*/ faciliter les fusions sur les branches qui nécessitent un très long développement.
+
+rebase permet d'éviter des commit de fusion pour des branch trivial.
+
+-* utiliser rebase avant chaque merge.
+*- git rebase permet de fusionner les branches en série
